@@ -1,6 +1,10 @@
+#Author: Eric Daily
+#GitHub username: edaily00
+#Date: 6/23/2022
+#This program can create students and find the mean, median and mode of their grades
 import statistics
 class Student:
-    # initializing student class
+    # initializing student class which accepts their name and grade
     def __init__(self, name, grade):
         self._name = name
         self._grade = grade
@@ -22,6 +26,8 @@ def basic_stats(student):
     tuple_stats = (mean, median, mode)
 
     return tuple_stats
+
+
 
 
 
